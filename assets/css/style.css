@@ -1,0 +1,263 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Recursive&family=Source+Code+Pro&display=swap");
+
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(35, 40, 48);
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  border: 1px solid rgba(77, 77, 77, 0.5);
+  margin-bottom: 10px;
+}
+
+/* Inicio header */
+.presentacion {
+  height: 520px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 15px;
+  min-width: 350px;
+}
+
+nav {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-nav {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-nav {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#logo {
+  width: 195px;
+  height: 205px;
+}
+
+#logo2 {
+  width: 850px;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.right-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Fin Header */
+
+/* Inicio Listing */
+.contenedor-listing {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contenedor-listing ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listing-img {
+  margin-right: 20px;
+}
+
+.listing-link {
+  margin-right: 20px;
+  color: rgba(144, 144, 144, 1);
+  font-size: 1.8rem;
+}
+
+.listing-img:hover, .listing-link:hover {
+    color: white;
+}
+/* Fin Listing */
+
+/* Inicio Articulos */
+.contenedor-articulos {
+  width: 80%;
+  margin: 75px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.card {
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 5px;
+    background-color: white;
+    height: 500px;
+    width: 390px;
+    font-family: "Poppins", sans-serif; 
+}
+
+.card-image {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.card-img {
+    height: 160px;
+    width: 338px;
+}
+
+.card-body {
+    width: 100%;
+}
+.card h4 {
+    margin: 15px 0;
+}
+
+.card-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+
+.dot {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* Fin Articulos */
+
+/* Inicio Pagination */
+.contenedor-pagination {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 75px auto;
+}
+
+.contenedor-pagination ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.pagination-link {
+    font-size: 1.6rem;
+    font-family: 'Recursive', sans-serif;
+    color: rgba(144, 144, 144, 1);
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.pagination-link:hover {
+    color: white;
+    border-top: 2px solid white;
+}
+
+.active {
+    color: rgba(255, 117, 117, 1);
+    border-top: 2px solid rgba(255, 117, 117, 1);
+}
+/* Fin Pagination */
+
+/* Inicio Footer */
+footer {
+  margin: 50px 0;
+  font-family: "Source Code Pro", monospace;
+}
+
+.left-nav-footer {
+  display: flex;
+  width: 300px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-nav-footer {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer button {
+  background-color: rgba(70, 153, 224, 1);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button img {
+  color: white;
+  margin-right: 5px;
+}
+/* Fin Footer */
